@@ -4,4 +4,4 @@ WORKDIR /app
 
 COPY . .
 
-ENTRYPOINT ["go", "test", "math.go", "math_test.go"]
+ENTRYPOINT ["go", "run", "math.go"]
