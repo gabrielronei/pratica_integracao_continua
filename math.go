@@ -7,12 +7,12 @@ func main() {
      fmt.Println(Subtract(10, 40))
 }
 
-func Sum(a int, b int) int {
+func sum(a int, b int) int {
 
      return a + b
 }
 
-func Subtract(a int, b int) int {
+func subtract(a int, b int) int {
 
      return a - b
 }
